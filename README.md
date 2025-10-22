@@ -26,7 +26,7 @@ Python, Pandas, NumPy, Scikit-learn, XGBoost, Imbalanced-learn, Plotly, Matplotl
 
 **Dataset**
 
-(https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
+https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 
 **Results**
 
