@@ -34,7 +34,7 @@ Environment: Google Colab
 
 https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 
-**8🔹 Results**
+**🔹 Results**
 
 Achieved high prediction accuracy with tuned XGBoost model
 
