@@ -1,57 +1,48 @@
 **Customer Churn Prediction (Telecom Sector)**
 
-This project predicts whether a customer will stay or leave (churn) using machine learning. It’s built on real-world telecom data and includes a complete workflow from data preprocessing to model evaluation and visualization through an interactive dashboard.
+A machine learning project that predicts whether a telecom customer will stay or leave (churn). Built using real-world data, it covers the entire ML pipeline — from data preprocessing and model tuning to evaluation and dashboard visualization.
 
-**🔹 Project Overview**
+**Overview**
 
-Customer churn is a major issue for telecom companies. This project uses machine learning techniques to predict churn based on customer behavior and service patterns, helping companies take early action to retain customers.
+Telecom companies lose significant revenue due to customer churn. This project identifies high-risk customers using classification models so that retention strategies can be applied proactively.
 
-**🔹 Key Features**
+**Key Highlights**
 
-Data cleaning, encoding, and feature selection
+Complete ML workflow: data cleaning, encoding, and feature engineering
 
-Class imbalance handling using SMOTE and undersampling
+Class imbalance handled with SMOTE and undersampling
 
-Model comparison (Random Forest, Decision Tree, XGBoost)
+Compared models: Random Forest, Decision Tree, XGBoost
 
-Hyperparameter tuning with GridSearchCV
+Optimized with GridSearchCV for best performance
 
-Model evaluation using Accuracy, F1-score, ROC-AUC
+Evaluated using Accuracy, F1-score, ROC-AUC
 
-Interactive Plotly dashboard for visual analysis
+Interactive Plotly dashboard for results and churn insights
 
-Well-commented and clean notebook structure
+**Tech Stack**
 
-**🔹 Tech Stack**
+Python, Pandas, NumPy, Scikit-learn, XGBoost, Imbalanced-learn, Plotly, Matplotlib, Seaborn
 
-Languages: Python
+**Dataset**
 
-Libraries: Pandas, NumPy, Scikit-learn, XGBoost, Imbalanced-learn, Matplotlib, Seaborn, Plotly
+(https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 
-Environment: Google Colab
+**Results**
 
-**🔹 Dataset**
+High model accuracy with optimized XGBoost
 
-https://www.kaggle.com/datasets/blastchar/telco-customer-churn
+Clear insights into churn drivers like tenure, contract type, and payment method
 
-**🔹 Results**
+Visual dashboard summarizing model performance and churn distribution
 
-Achieved high prediction accuracy with tuned XGBoost model
+**How to Run**
 
-Identified key factors influencing churn such as contract type, tenure, and payment method
+Open in Google Colab or Jupyter Notebook
 
-Visual dashboard provides quick insights into model performance and churn trends
-
-**🔹 How to Run**
-
-Open the notebook in Google Colab or Jupyter Notebook
-
-Install dependencies if needed:
+Install dependencies:
 
 pip install pandas numpy scikit-learn xgboost imbalanced-learn plotly
 
 
-Run all cells in sequence
-
-Explore the final interactive dashboard at the end of the notebook
-
+Run all cells to view results and interactive dashboard
